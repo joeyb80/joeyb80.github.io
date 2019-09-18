@@ -1,2 +1,2 @@
 # joeyb80.github.io
-CIT 230
+Web site for CIT 230
