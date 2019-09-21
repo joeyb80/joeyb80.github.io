@@ -1,3 +1,8 @@
 header {
     background-color: darkblue;
+    align-content: center;
+}
+
+.line{
+align-content: left;
 }
