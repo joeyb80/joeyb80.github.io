@@ -1,8 +1,21 @@
-header {
+header,footer {
     background-color: darkblue;
     align-content: center;
+    color:white;
+    text-align: center;
+    padding: 1.5rem;
 }
 
 .line{
 align-content: left;
+}
+
+img{
+    float: right;
+    margin: 20px;
+    box-shadow: 10px 10px 10px  grey;
+}
+
+.dateMod{
+    color: orange;
 }
