@@ -1,32 +1,39 @@
-header,footer {
+header,
+footer {
     background-color: teal;
     align-content: center;
-    color:white;
+    color: white;
     text-align: center;
     padding: 1.5rem;
     border-radius: 1.5rem;
 }
 
-
-.line{
-align-content: left;
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
-img{
+
+.line {
+    align-content: left;
+}
+
+img {
     float: right;
     margin: 20px;
-    box-shadow: 10px 10px 10px  grey;
+    box-shadow: 10px 10px 10px grey;
 }
 
-.dateMod{
-    color:yellow;
+.dateMod {
+    color: yellow;
 }
 
-.byui{
+.byui {
     color: white;
-    
+
 }
 
 a:visited {
-    color:white;
+    color: white;
 }
