@@ -19,9 +19,14 @@ img{
 }
 
 .dateMod{
-    color: orange;
+    color:yellow;
 }
 
 .byui{
     color: white;
+    
+}
+
+a:visited {
+    color:white;
 }
