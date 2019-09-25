@@ -1,3 +1,5 @@
+@import url('normalize.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
 
 header,
 footer {
@@ -6,17 +8,15 @@ footer {
     color: white;
     text-align: center;
     padding: 1.5rem;
-    
-    
+
+
 }
 
-header{
-    font-family: 'Vollkorn', serif;
+header {
+    font-family: 'Roboto', sans-serif;
 }
 
-body{
-    
-}
+
 footer {
     position: fixed;
     bottom: 0;
@@ -29,16 +29,17 @@ footer {
 header img {
     width: 200px;
     height: auto;
-    
     margin: 20px;
-   
+    
+
 }
 
 .dateMod {
     color: yellow;
 }
 
-ul{
+ul {
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.25rem;
 }
 
@@ -51,12 +52,26 @@ a:visited {
     color: white;
 }
 
-h1{
-font-size: 1.5rem;
-margin: 0.15rem;
+h1 {
+    font-size: 3.5vw;;
+    margin: 0.15rem;
+    
+    font-weight: 900;
 }
 
-h2{
+h2 {
     text-align: center;
     font-size: 1rem;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px; /*this is now 1rem*/
 }
