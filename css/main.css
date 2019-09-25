@@ -1,3 +1,4 @@
+
 header,
 footer {
     background-color: teal;
@@ -6,8 +7,16 @@ footer {
     text-align: center;
     padding: 1.5rem;
     border-radius: 1.5rem;
+    
 }
 
+header{
+    font-family: 'Vollkorn', serif;
+}
+
+body{
+    
+}
 footer {
     position: fixed;
     bottom: 0;
