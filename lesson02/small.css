@@ -1,7 +1,4 @@
-@import url('normalize.css');
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Notable&display=swap');
-
-section{
+section {
     margin: 1rem;
 }
 
@@ -14,51 +11,51 @@ header {
     text-shadow: 1px 1px 1px black;
 }
 
-h1{
+h1 {
     margin: 0rem;
     padding: 1rem;
 }
 
-h2{
+h2 {
     margin: 0;
 }
 
-h3{
+h3 {
     background-color: darkslategrey;
     color: white;
-    text-align: center;    
+    text-align: center;
     padding: .25rem;
     margin: 0rem;
     border-radius: 1rem 1rem 0 0;
 }
 
-p, h3{
+p,
+h3 {
     font-family: 'josefin sans', sans-serif;
 }
 
-p{
+p {
     margin: 0;
-    
+
 }
 
-img{
+img {
     width: 100%;
     height: auto;
     padding: 1rem 0 0 0;
 }
 
 
-div{
-    background-color:#eee;
+div {
+    background-color: #eee;
     border: 1px solid #bbb;
     border-radius: 0 0 1rem 1rem;
     padding: .75rem .5rem 0rem;
 }
 
 
-main{
-    
-    display: grid;
-    grid-template-columns:1fr;
-}
+main {
 
+    display: grid;
+    grid-template-columns: 1fr;
+}
