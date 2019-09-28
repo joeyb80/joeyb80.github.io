@@ -33,9 +33,19 @@ p,
 h3 {
     font-family: 'josefin sans', sans-serif;
 }
+h4{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
 
 p {
-    margin: 0;
+    margin: 1rem;
+    background-color: #eee;
+    border: 1px solid #bbb;
+    border-radius: 1rem;
+    padding: .5rem;
+    font-size: 1.5rem;
 
 }
 
@@ -58,4 +68,8 @@ main {
 
     display: grid;
     grid-template-columns: 1fr;
+}
+
+.links{
+    border:none;
 }
