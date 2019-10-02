@@ -70,6 +70,18 @@ main {
     grid-template-columns: 1fr;
 }
 
+footer {
+    padding: .75rem;
+    bottom: 0;
+    width: 100%;
+        background-color: teal;
+        align-content: center;
+        color: white;
+        text-align: center;
+    
+}
+
+
 .links{
     border:none;
 }
