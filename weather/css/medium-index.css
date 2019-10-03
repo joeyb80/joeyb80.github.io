@@ -9,11 +9,12 @@
     }
 
     section{
-        padding: 1rem 8rem;
+       padding: 1rem 8rem;
     }
 
     footer{
-        position: relative;
+        position: absolute;
+        bottom: 0;
     }
 
     img{

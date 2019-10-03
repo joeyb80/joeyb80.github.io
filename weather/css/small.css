@@ -1,4 +1,3 @@
-@import url('normalize.css');
 
 header,
 footer {
@@ -26,13 +25,18 @@ h1 {
     font-size: 4rem;
 }
 
+h4{
+    text-decoration: underline;
+}
+
 ul{
     margin: .5rem;
     padding: 0;
 }
 
 li{
-    padding: .1rem;
+    margin: .25rem;
+    width: 49%;
 }
 
 nav {
@@ -43,6 +47,7 @@ nav {
 
 nav a{
     font-size: 1.5rem;
+    text-decoration: none;
 }
 
 nav a:hover {
@@ -52,12 +57,17 @@ nav a:hover {
 }
 
 nav ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     list-style-type: none;
+    height: 200px;
 }
 
 
+
 main{
-    display: grid;
+    
 }
 
 body{
@@ -94,6 +104,8 @@ h2 {
 
 footer{
     padding: .3rem 0rem .3rem 0rem;
+    position: relative;
+    bottom: 0;
 }
 
 
@@ -112,3 +124,14 @@ footer{
     background-color: #ABB7B7;
 }
 
+.url{
+    border-radius: 1rem;
+}
+
+.targetAudience{
+    
+}
+
+.targetSection{
+    
+}
