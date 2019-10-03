@@ -1,0 +1,22 @@
+@media only screen and (min-width: 32.51rem) {
+
+    nav ul { display: flex; }
+    nav ul li { flex: 1 1 100%; }
+
+    section{
+        padding: 1rem 8rem;
+    }
+
+    footer{
+        position: absolute;
+        bottom: 0;
+    }
+
+    img{
+        top: 1rem;
+        left: 1rem;
+        position: absolute; 
+    }
+
+
+}

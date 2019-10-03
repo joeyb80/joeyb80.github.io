@@ -1,0 +1,114 @@
+@import url('normalize.css');
+
+header,
+footer {
+    background-color: #4169E1;
+    color: white;
+}
+
+header{
+    margin: 0;
+    padding: .5rem;
+    text-align: center;
+}
+
+footer {
+    padding: .75rem;
+    bottom: 0;
+    width: 100%;
+    background-color: #ABB7B7;
+    align-content: center;
+    color: white;
+    text-align: center;
+}   
+
+h1 {
+    font-size: 4rem;
+}
+
+ul{
+    margin: .5rem;
+    padding: 0;
+}
+
+li{
+    padding: .1rem;
+}
+
+nav {
+	
+    text-align: center;
+ 
+}
+
+nav a{
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+	background-color: #bbb;
+    color: #36454f;
+    
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+
+main{
+    display: grid;
+}
+
+body{
+    background-color: gray;
+}
+
+section{
+    padding: 1rem;
+}
+
+div {
+    background-color: #eee;
+    border: 1px solid #bbb;
+    border-radius: 0 0 1rem 1rem;
+    padding: .75rem .5rem 0rem;
+}
+p {
+    margin: 1rem;
+    background-color: #eee;
+    border: 1px solid #bbb;
+    border-radius: 1rem;
+    padding: .5rem;
+    font-size: 1rem;
+
+}
+h2 {
+    background-color: #87CEEB;
+    color: white;
+    text-align: center;
+    padding: .25rem;
+    margin: 0rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+footer{
+    padding: .3rem 0rem .3rem 0rem;
+}
+
+
+.dateMod {
+    color: yellow;
+}
+
+.home{
+    list-style-type: none;
+}
+.active{
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    color: white;
+    background-color: #ABB7B7;
+}
+
