@@ -16,7 +16,7 @@
         position: relative;
     }
 
-    img{
+    .weatherIcon{
         top: 1rem;
         left: 1rem;
         position: absolute; 
