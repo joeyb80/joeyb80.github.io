@@ -1,0 +1,102 @@
+
+
+header{
+    background-color: #4169E1;
+    color: white;
+    text-align: center;    
+    padding: .5rem;
+    overflow: hidden;
+    font-size: 2rem;  
+}
+
+
+h1{
+    margin: 0;
+    font-family: 'AsAP', sans-serif;
+}
+h2, p, footer{
+   font-family: 'Bitter', sans-serif;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    
+}
+
+nav{
+    background-color: #ccc;
+}
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+}
+
+nav ul li a{
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #000;
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li.active a{
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+nav ul.hide{
+    display: none;
+}
+
+li{
+    list-style-type: none;
+    
+    margin: 0;
+}
+
+main{
+    margin: 0;
+    background-color:#808080;
+}
+
+p{
+    margin: 0;
+    color: white;
+    font-size: 1.5rem;
+}
+
+h2{
+    margin: 0;
+    color: white;
+    font-size: 4rem;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+div img{
+    border-radius: 1rem;
+    margin: .5rem;
+}
+
+footer{
+    padding: .3rem 0rem .3rem 0rem;
+    position: relative;
+    bottom: 0;
+    background-color: #4169E1;
+    color: white;
+}
+
+body{
+    background-color: #808080;
+}
