@@ -38,25 +38,30 @@
         float: left;
     }
 
-    div{
+    .section{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         justify-content: space-evenly;
         flex-direction: row;
     }
-    
+    /*
     div img{
         padding: 1rem;
         width: 20%;
         border-radius: 2rem;
-    }
+    }*/
 
     main{
-       margin: 0% 15% 0% 15%;
+       margin: 0% 10% 0% 10%;
     }
 
     .weather-temp{
         width: 75%;
+            
+        
     }
+
+    
+   
 }
