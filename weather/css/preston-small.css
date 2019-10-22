@@ -98,3 +98,54 @@ body{
 section img{
     width: 100%;
 }
+
+.weatherHeader{
+    border-style: solid;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: repeat(27, 1rem);
+    grid-template-rows: repeat(12, 1rem);
+    justify-content: center;
+    margin: .5rem;
+}
+
+.current{
+    text-align: center;
+    font-size: 4rem;
+    grid-column: 9/span 10;
+    grid-row: 4/span 5;
+    font-weight: bold;
+}
+
+.feels{
+    text-align: center;
+    grid-column: 9/span 10;
+    grid-row: 8/span 9;
+    font-size: 1rem;
+}
+
+.high{
+    text-align: center;
+    grid-column: 3/span 4;
+    grid-row: 5/span 6;
+    color: red;
+}
+
+.low{
+    text-align: center;
+    grid-column: 20/span 21;
+    grid-row: 5/span 6;
+    color: blue;
+}
+
+.gusts{
+    font-size: 1.2rem;
+    grid-column: 15/span 16;
+    grid-row: 10/span 12;
+}
+
+.wind{
+    font-size: 1.2rem;
+    grid-column: 7/span 9;
+    grid-row: 10/span12;
+}
