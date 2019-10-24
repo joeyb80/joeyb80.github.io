@@ -1,0 +1,56 @@
+<!--https://codepen.io/joeyb80/pen/qBBqdKd-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="../css/weather-images.css" rel="stylesheet" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Asap&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+    
+    
+    <title>Weather-Images</title>
+</head>
+
+<header>
+    <h1>Weather Images</h1>
+</header>
+
+
+<main>
+
+    <picture>
+        <source media="(min-width: 1220px)" srcset="../images/clear.jpg">
+        <source media="(min-width: 820px)" srcset="../images/clear800.jpg">
+        <img src ="../images/placeholder.jpg" data-src="../images/clear300.jpg" alt="Clear" style="width:auto;">
+    </picture>
+
+    <picture>
+        <source media="(min-width: 1220px)" srcset="../images/fog.jpg">
+        <source media="(min-width: 820px)" srcset="../images/fog800.jpg">
+        <img src ="../images/placeholder.jpg" data-src="../images/fog300.jpg" alt="Fog" style="width:auto;">
+    </picture>
+
+    <picture>
+        <source media="(min-width: 1220px)" srcset="../images/rain.jpg">
+        <source media="(min-width: 820px)" srcset="../images/rain800.jpg">
+        <img src ="../images/placeholder.jpg" data-src="../images/rain300.jpg" alt="Rain" style="width:auto;">
+    </picture>
+    
+    <picture>
+        <source media="(min-width: 1220px)" srcset="../images/snow.jpg">
+        <source media="(min-width: 820px)" srcset="../images/snow800.jpg">
+        <img src ="../images/placeholder.jpg" data-src="../images/snow300.jpg" alt="Snow" style="width:auto;">
+    </picture>
+
+    <picture>
+            <source media="(min-width: 1220px)" srcset="../images/clouds.jpg">
+            <source media="(min-width: 820px)" srcset="../images/clouds800.jpg">
+            <img src ="../images/placeholder.jpg" data-src="../images/clouds300.jpg" alt="Clouds" style="width:auto;">
+        </picture>
+
+</main>
+<script src="../js/weather-images.js"></script>
+</html>
