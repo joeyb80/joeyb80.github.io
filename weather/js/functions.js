@@ -2,14 +2,19 @@
 document.addEventListener("DOMContentLoaded", function(){
 buildModDate();
 // variables for wind chill function
-let temp = 31;
-let speed = 5;
+let temp = 25;
+let speed = 10;
 buildWC(speed, temp);
-
+let weather = "clear";
 // The time indictor function
 let hour="5";
 timeBall(hour);
+
+// Changes the backgorund image
+changeSummaryImage(weather);
 })
+
+
 
 console.log('My javascript is being read.');
 
@@ -51,6 +56,7 @@ month[11] = "December";
 
 var m = month[fullDay.getMonth()];
 var n = weekday[fullDay.getDay()];
+console.log(`The name of the day is: ${n}`);
 
 document.getElementById("todaysDate").innerHTML = n + ", " + fullDay.getDate() + " " + m + " " + fullDay.getFullYear();
 }
@@ -60,7 +66,11 @@ document.getElementById("todaysDate").innerHTML = n + ", " + fullDay.getDate() +
 
 function buildWC(speed, temp){
     let feelTemp = document.getElementById('feels');
-
+    let highTemp = document.getElementById('high');
+    let lowTemp = document.getElementById('low');
+    let currentTemp = document.getElementById('current');
+    let windSpeed = document.getElementById('wind');
+    let windGusts = document.getElementById('gusts');
     // Compute the windchill
  let wc = 35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16);
  console.log(wc);
@@ -72,8 +82,17 @@ wc = (wc > temp)?temp:wc;
 
 // Display the windchill
 console.log(wc);
+
 wc = 'Fells like ' + wc + '&#176;' + 'F';
-feels.innerHTML = wc;
+let high = temp + 15;
+let low = temp - 12;
+feelTemp.innerHTML = wc;
+highTemp.innerHTML = high + '&#176;';
+lowTemp.innerHTML = low + '&#176;';
+currentTemp.innerHTML = temp + '&#176;' + 'F';
+windSpeed.innerHTML = speed + 'mph';
+windGusts.innerHTML = 'Gusts: ' + (speed + 5) + 'mph';
+
 }
 
 
@@ -90,4 +109,14 @@ function timeBall(hour){
     for (let item of hr){
         item.classList.add("ball");
     }
+
+
+function changeSummaryImage(weather){
+
+
+
+}
+
+
+
 }

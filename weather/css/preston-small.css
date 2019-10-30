@@ -109,7 +109,7 @@ section img{
     margin: .5rem;
 }
 
-.current{
+#current{
     text-align: center;
     font-size: 4rem;
     grid-column: 9/span 10;
@@ -124,28 +124,36 @@ section img{
     font-size: 1rem;
 }
 
-.high{
+#high{
     text-align: center;
     grid-column: 3/span 4;
     grid-row: 5/span 6;
     color: red;
 }
 
-.low{
+#low{
     text-align: center;
     grid-column: 20/span 21;
     grid-row: 5/span 6;
     color: blue;
 }
 
-.gusts{
+#gusts{
     font-size: 1.2rem;
     grid-column: 15/span 16;
     grid-row: 10/span 12;
 }
 
-.wind{
+#wind{
     font-size: 1.2rem;
     grid-column: 7/span 9;
     grid-row: 10/span12;
+}
+
+.section{
+    background-size: cover;
+}
+
+.clear{
+    background-image: url("/weather/images/clear300.jpg");
 }
