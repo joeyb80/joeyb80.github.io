@@ -117,7 +117,7 @@ section img{
     font-weight: bold;
 }
 
-.feels{
+#feels{
     text-align: center;
     grid-column: 9/span 10;
     grid-row: 8/span 9;
