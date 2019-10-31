@@ -38,7 +38,7 @@
         float: left;
     }
 
-    .section{
+    #section{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -65,6 +65,26 @@
     .weatherHeader{
         width: 75%;
        
+    }
+
+    .clear{
+        background-image: url("/weather/images/clear.jpg");
+    }
+    
+    .rain{
+        background-image: url("/weather/images/rain.jpg");
+    }
+    
+    .fog{
+        background-image: url("/weather/images/fog.jpg");
+    }
+    
+    .snow{
+        background-image: url("/weather/images/snow.jpg");
+    }
+    
+    .clouds{
+        background-image: url("/weather/images/clouds.jpg");
     }
     
    

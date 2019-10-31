@@ -92,7 +92,7 @@ footer{
 
 body{
     background-color: #808080;
-    margin: 0;
+    margin: 0;   
 }
 
 section img{
@@ -103,10 +103,11 @@ section img{
     border-style: solid;
     border-radius: 1rem;
     display: grid;
-    grid-template-columns: repeat(27, 1rem);
-    grid-template-rows: repeat(12, 1rem);
+    grid-template-columns: repeat(27, 1fr);
+    grid-template-rows: repeat(12, 1fr);
     justify-content: center;
     margin: .5rem;
+    background-color: rgba(255,255,255,.5)
 }
 
 #current{
@@ -140,20 +141,36 @@ section img{
 
 #gusts{
     font-size: 1.2rem;
-    grid-column: 15/span 16;
+    grid-column: 17/span 17;
     grid-row: 10/span 12;
 }
 
 #wind{
     font-size: 1.2rem;
-    grid-column: 7/span 9;
+    grid-column: 4/span 9;
     grid-row: 10/span12;
 }
 
-.section{
+#section{
     background-size: cover;
 }
 
 .clear{
-    background-image: url("/weather/images/clear300.jpg");
+    background-image: url("/weather/images/clear800.jpg");
+}
+
+.rain{
+    background-image: url("/weather/images/rain800.jpg");
+}
+
+.fog{
+    background-image: url("/weather/images/fog800.jpg");
+}
+
+.snow{
+    background-image: url("/weather/images/snow800.jpg");
+}
+
+.clouds{
+    background-image: url("/weather/images/clouds800.jpg");
 }

@@ -5,9 +5,11 @@ buildModDate();
 let temp = 25;
 let speed = 10;
 buildWC(speed, temp);
-let weather = "clear";
+let weather = "clEar";
+console.log(weather);
 // The time indictor function
 let hour="5";
+console.log(hour);
 timeBall(hour);
 
 // Changes the backgorund image
@@ -57,8 +59,9 @@ month[11] = "December";
 var m = month[fullDay.getMonth()];
 var n = weekday[fullDay.getDay()];
 console.log(`The name of the day is: ${n}`);
+var todayDate = document.getElementById("todaysDate");
 
-document.getElementById("todaysDate").innerHTML = n + ", " + fullDay.getDate() + " " + m + " " + fullDay.getFullYear();
+todayDate.innerHTML = n + ", " + fullDay.getDate() + " " + m + " " + fullDay.getFullYear();
 }
 
 
@@ -90,7 +93,7 @@ feelTemp.innerHTML = wc;
 highTemp.innerHTML = high + '&#176;';
 lowTemp.innerHTML = low + '&#176;';
 currentTemp.innerHTML = temp + '&#176;' + 'F';
-windSpeed.innerHTML = speed + 'mph';
+windSpeed.innerHTML = speed + 'mph      ';
 windGusts.innerHTML = 'Gusts: ' + (speed + 5) + 'mph';
 
 }
@@ -110,13 +113,33 @@ function timeBall(hour){
         item.classList.add("ball");
     }
 
-
-function changeSummaryImage(weather){
-
-
-
 }
 
+// Changes the background image
+function changeSummaryImage(weather){
+    // gets the section Id
+    let x = document.getElementById('section'); 
+    // this changes everything entered into lowercase
+     weather = weather.toLowerCase();
 
-
+     // adds the class name to change the backgorund image
+    console.log(weather);
+     switch(weather){
+         case "clear":
+            x.className += 'clear';
+         break;
+         case "rain":
+            x.className += 'rain';
+         break;
+         case"fog":
+            x.className += 'fog';
+         break;
+         case"snow":
+            x.className += 'snow';
+         break;
+         case"clouds":
+         x.className += 'clouds';
+         break;
+     }       
+    
 }
