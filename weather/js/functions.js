@@ -93,7 +93,7 @@ feelTemp.innerHTML = wc;
 highTemp.innerHTML = high + '&#176;';
 lowTemp.innerHTML = low + '&#176;';
 currentTemp.innerHTML = temp + '&#176;' + 'F';
-windSpeed.innerHTML = speed + 'mph      ';
+windSpeed.innerHTML =  speed + 'mph      ';
 windGusts.innerHTML = 'Gusts: ' + (speed + 5) + 'mph';
 
 }
