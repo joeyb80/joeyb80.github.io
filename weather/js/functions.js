@@ -2,13 +2,13 @@
 document.addEventListener("DOMContentLoaded", function(){
 buildModDate();
 // variables for wind chill function
-let temp = 25;
-let speed = 10;
+let temp = 31;
+let speed = 20;
 buildWC(speed, temp);
-let weather = "clEar";
+let weather = "clear";
 console.log(weather);
 // The time indictor function
-let hour="5";
+let hour="6";
 console.log(hour);
 timeBall(hour);
 
@@ -143,3 +143,11 @@ function changeSummaryImage(weather){
      }       
     
 }
+
+
+fetch('https://api.github.com/users/chriscoyier/repos')
+  .then(response => response.json())
+  .then(data => {
+    // Here's a list of repos!
+    console.log(data)
+  });
