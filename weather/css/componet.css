@@ -29,11 +29,18 @@
     padding: 0 3rem 0 3rem;
 }
 
-#mid, #tmid{
+ #tmid{
    grid-column: 9/14;
    grid-row: 10/13;
    font-size: 2.6rem;
 }
+
+#mid{
+    grid-column:8/14;
+    grid-row: 10/13;
+   font-size: 2.6rem;
+}
+
 #o1, #to1, #co1{
     grid-column: 10;
     

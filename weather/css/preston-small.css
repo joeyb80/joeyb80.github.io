@@ -174,3 +174,12 @@ section img{
 .clouds{
     background-image: url("/weather/images/clouds800.jpg");
 }
+
+.hide{
+    display: none;
+}
+
+/* Constrain condition images */
+#condition img{
+    max-width: 40%;
+  }

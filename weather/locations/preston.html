@@ -13,8 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
     <link href="../css/componet.css" rel="stylesheet" media="screen">
-    <!--<script src="../js/scipts.js"></script>-->
-    <title>Preston</title>
+    <title id="page-title"> | Preston Weather</title>
 </head>
 
 <header>
@@ -27,7 +26,7 @@
     
 </header>
 
-<nav>
+<nav id="page-nav">
     <button onclick="toggleMenu()">&#9776; Menu</button>
 <ul id="primaryNav" class="hide">
     <li><a href="#">Home</a></li>
@@ -39,11 +38,15 @@
 </ul>
 </nav>
 
-<main>
+
+<section id="status">Please be patient while I get your weather information.</section>
+
+
+<main id="main-content" class="hide">
 
     
-    <h2>Preston Idaho</h2>
-    <p>GPS: 42.543, 111.5231</p>
+    <h2 id = contentHeading>?</h2>
+    <p id = latLon>?</p>
      
     <section id="section">
       <!--  <img class="weather-temp" src="../images/weather-temp.png" alt="weather-temp"> -->
@@ -57,7 +60,7 @@
 
         </div>
         <Div class = "container"> 
-                <h3 class="precipTitle">Precipitation</h3>
+                <h3 class="precipTitle">Wind</h3>
             <div class = "precipitation">
             <!--<img class="weather-temp" src="../images/weather-temp.png" alt="weather-temp">
             <img src="../images/temperature.png" alt="temperature-pic">-->
@@ -75,7 +78,7 @@
             <div id="o11">0%</div>
             <div id="o12">0%</div>
         
-            <div id="mid">&#9730;%</div>
+            <div id="mid">MPH</div>
             
             <div class="i1 ball">1</div>
             <div class="i2 ball">2</div>
