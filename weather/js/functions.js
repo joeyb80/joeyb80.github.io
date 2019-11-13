@@ -90,8 +90,8 @@ function buildWC(speed, temp){
     let highTemp = document.getElementById('high');
     let lowTemp = document.getElementById('low');
     let currentTemp = document.getElementById('current');
-    let windSpeed = document.getElementById('wind');
-    let windGusts = document.getElementById('gusts');
+    //let windSpeed = document.getElementById('wind');
+    //let windGusts = document.getElementById('gusts');
     // Compute the windchill
  let wc = 35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16);
  console.log(wc);
@@ -111,8 +111,8 @@ feelTemp.innerHTML = wc;
 //highTemp.innerHTML = high + '&#176;';
 lowTemp.innerHTML = low + '&#176;';
 currentTemp.innerHTML = temp + '&#176;' + 'F';
-windSpeed.innerHTML =  speed + 'mph      ';
-windGusts.innerHTML = 'Gusts: ' + (speed + 5) + 'mph';
+//windSpeed.innerHTML =  speed + 'mph      ';
+//windGusts.innerHTML = 'Gusts: ' + (speed + 5) + 'mph';
 
 }
 
@@ -311,17 +311,22 @@ may need to make some adaptations for it to work.*/
 let highTemp = document.querySelector('#high');
 let loTemp = document.querySelector('#low');
 let currentTemp = document.querySelector('#current');
-let feelTemp = document.querySelector('#feels');
+//let feelTemp = document.querySelector('#feels');
+
 highTemp.innerHTML = sessStore.getItem('highTemp') + "°F";
-loTemp.innerHTML = sessStore.getItem('lowTemp') + "°F";
+loTemp.innerHTML = sessStore.getItem('lowTemp') + "°F"; 
 currentTemp.innerHTML = sessStore.getItem('temperature') + "°F";
 // Set the wind information
 let speed = document.querySelector('#wind');
 let gust = document.querySelector('#gusts');
-speed.innerHTML = sessStore.getItem('windSpeed');
-gust.innerHTML = sessStore.getItem('windGust');
+speed.innerHTML = sessStore.getItem('WindSpeed') + " mph";
+gust.innerHTML = sessStore.getItem('WindGusts') + " mph";
 // Calculate feel like temp
-feelTemp.innerHTML = buildWC(sessStore.getItem('windSpeed'), sessStore.getItem('temperature')) + "°F";
+console.log(sessStore.getItem('WindSpeed'));
+console.log(sessStore.getItem('WindGusts'));
+console.log(sessStore.getItem('temperature'));
+//feelTemp.innerHTML = 
+buildWC(sessStore.getItem('WindSpeed'), sessStore.getItem('temperature'));
 
 // **********  Set the Time Indicators  **********
 let thisDate = new Date();
