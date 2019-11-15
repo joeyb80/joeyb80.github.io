@@ -351,8 +351,8 @@ function buildPage() {
     // Set the wind information
     let speed = document.querySelector('#wind');
     let gust = document.querySelector('#gusts');
-    speed.innerHTML = sessStore.getItem('WindSpeed') + " mph";
-    gust.innerHTML = sessStore.getItem('WindGusts') + " mph";
+    speed.innerHTML = "Wind speed: " + sessStore.getItem('WindSpeed') + " mph";
+    gust.innerHTML = "Gusts speed: " + sessStore.getItem('WindGusts') + " mph";
     // Calculate feel like temp
     console.log(sessStore.getItem('WindSpeed'));
     console.log(sessStore.getItem('WindGusts'));
