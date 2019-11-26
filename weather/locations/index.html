@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
     <link href="../css/componet-min.css" rel="stylesheet" media="screen">
-    <title id="page-title"> | Preston Weather</title>
+    <title id="page-title"> | Home</title>
 </head>
 
 <header>
@@ -29,8 +29,8 @@
 <nav id="page-nav">
     <button onclick="toggleMenu()">&#9776; Menu</button>
 <ul id="primaryNav" class="hide">
-    <li><a href="index.html">Home</a></li>
-    <li class="active"><a href="#">Preston</a></li>
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="./preston.html">Preston</a></li>
     <li><a href="./sodaSpring.html">Soda Springs</a></li>
     <li><a href="#">Fish Haven</a></li>
     <li><a href="#">Storm Center</a></li>
@@ -45,8 +45,9 @@
 <main id="main-content" class="hide">
 
     
-    <h2 id = "contentHeading" data-page="Preston">?</h2>
-    <p id = "latLon" data-coordinates="Preston">?</p>
+    <h2 id = "contentHeading" >?</h2>
+    <p id = "latLon">?</p>
+    <p id = "elevation">?</p>
      
     <section id="section">
       <!--  <img class="weather-temp" src="../images/weather-temp.png" alt="weather-temp"> -->
@@ -200,6 +201,7 @@
 <section class="dateMod">
     Today's Date: <span id="todaysDate"></span>
     <script src="../js/functions.js"></script>
+    <script src="../js/geo_loc.js"></script>
     
 </section>
 </footer>
