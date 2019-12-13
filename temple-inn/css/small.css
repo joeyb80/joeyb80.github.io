@@ -1,0 +1,178 @@
+#temple-icon{
+    height: 7rem;
+    
+}
+
+header{
+    background-color:lightblue;
+    color: white;
+    text-shadow: 0 0 3px black;
+    text-align: center;    
+    padding: .5rem;
+    overflow: hidden;
+    font-size: 2rem;  
+}
+
+html{
+    background-color: lightyellow;
+}
+
+
+nav{
+    background-color: #ccc;
+}
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+}
+
+nav ul li a{
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #000;
+   
+}
+
+nav ul li.active a{
+    text-decoration: underline;
+    color: black;
+}
+
+nav ul li a:hover{
+   
+}
+
+nav ul.hide{
+    display: none;
+}
+
+li{
+    list-style-type: none;
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    
+}
+
+footer{
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+.templeImg{
+    width: 100%;
+    height: auto;
+  }
+
+
+.row{
+    background-color: white;
+    width: 100%;
+}
+
+#templeSelect{
+    color: gray;
+}
+
+#reservation{
+    width: 100%;
+    background-color: white;
+}
+
+#submitButton{
+    height: 5rem;
+    width: 100%;
+    
+    background: lightblue;
+    font-size: 3rem;
+
+}
+
+#homePage{
+    background-color: lightyellow;
+    border-color: lightyellow;
+}
+
+#homeImg{
+    background-image: url("/temple-inn/images/VernalSmall.jpg");
+    width: 100%;
+    
+}
+
+#featured{
+    text-align: center;
+    font-size: 2.5rem;
+}
+#homeButton{
+    height: 3rem;
+    width: 15rem;
+    
+    background: lightblue;
+    color: black;
+    
+    font-size: 1.2rem;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.templeSectionV{
+    border-color: lightyellow;
+    font-size: 1.8rem;
+    
+}
+#templeSectionP{
+    border-color: lightyellow;
+    font-size: 1.8rem;
+    
+}
+.services{
+    text-decoration: underline;
+}
+
+#contactUs{
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+}
+
+
+#maps{
+    width: 100%;
+    height: auto;
+}
+
+.showDetails{
+    width: 100%;
+    height: 3rem;
+    background: lightblue;
+    color: black;
+    
+    font-size: 1.2rem;
+}
+
+
+.serviceNav{
+    list-style-type: disc;
+    font-size: 1.5rem;
+    
+}
+
+
+
+
+
+
+
+
+
+

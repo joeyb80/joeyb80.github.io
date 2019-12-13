@@ -1,0 +1,145 @@
+{
+    "Vernal": {
+      "services": {
+        "clothing": "Rental available",
+        "cafeteria": "No cafeteria vailable",
+        "patron": "No patron housing available",
+        "distribution": "Distribution center nearby"
+        
+      },
+      "contact": {
+        "address": "170 S 400 W, Vernal UT 84078-2536, United States",
+        "phoneNumber": "(1)435-789-3220"
+        },
+      "history": {
+          "text": "The Vernal Utah Temple was the first temple built from an existing building—the Uintah Stake Tabernacle. A modern temple was built within the shell of the gutted tabernacle, which had fallen into serious disrepair and had not hosted a stake conference since 1983."
+      },
+      "ordinance": {
+          "schedule": "Please call the temple at (1)435-789-3220 for information."
+      },
+      "closure": {
+          "schedule": {
+                "1": "Wednesday, 1 January 2020", 
+                "2": "Saturday, 4 April 2020",
+                "3": "Tuesday, 5 May 2020 - Monday, 18 May 2020",
+                "4": "Saturday, 23 May 2020 (Limited Hours)",
+                "5": "Saturday, 4 July 2020",
+                "6": "Friday, 24 July 2020",
+                "7": "Saturday, 3 October 2020",
+                "8": "Tuesday, 6 October 2020 - Monday, 19 October 2020",
+                "9": "Wednesday, 25 November 2020 - Thursday, 26 November 2020",
+                "10": "Thursday, 24 December 2020 - Friday, 25 December 2020",
+                "11": "Thursday, 31 December 2020"
+          }
+      },
+      "weather":{
+        "link": "https://www.wunderground.com/weather/us/ut/vernal"
+      }  
+    },
+
+    "Palmyra": {
+        "services": {
+          "clothing": "No clothing rental available",
+          "cafeteria": "No cafeteria vailable",
+          "patron": "No patron housing available",
+          "distribution": "Distribution center nearby"
+          
+        },
+        "contact": {
+          "address": "2720 Temple Rd, Palmyra NY 14522-9573, United States",
+          "phoneNumber": "(1)315-597-6001"
+          },
+        "history": {
+            "text": "The Palmyra New York Temple was dedicated on April 6, 2000, exactly 170 years after The Church of Jesus Christ of Latter-day Saints was formally organized in Fayette, New York, (about 30 miles from Palmyra) on April 6, 1830."
+        },
+        "ordinance": {
+            "schedule": "Please call the temple at (1)315-597-6001 for information."
+        },
+        "closure": {
+            "schedule": {
+                  "1": "Wednesday, 1 January 2020", 
+                  "2": "Monday, 10 February 2020 - Monday, 24 Febrary 2020",
+                  "3": "Saturday, 4 April 2020",
+                  "4": "Saturday, 4 July 2020",
+                  "5": "Monday, 7 September 2020 - Saturday, 19 September 2020",
+                  "6": "Saturday, 3 October 2020",
+                  "7": "Thursday, 26 November 2020",
+                  "8": "Thursday, 24 December 2020",
+                  "9": "Friday, 25 December 2020",
+                  "10": "Thursday, 31 December 2020"
+            }
+        }  
+      },
+
+      "Manhattan": {
+        "services": {
+          "clothing": "Clothing rental available",
+          "cafeteria": "No cafeteria vailable",
+          "patron": "No patron housing available",
+          "distribution": "Distribution center nearby"
+          
+        },
+        "contact": {
+          "address": "125 Columbus Ave, Fourth Floor, New York 10023-6514, United States",
+          "phoneNumber": "(1)917-441-8220"
+          },
+        "history": {
+            "text": "The Manhattan New York Temple was the second multipurpose temple of the Church, following the Hong Kong China Temple (1996). The Manhattan New York Temple was the second temple built in the state of New York, following the Palmyra New York Temple (2000). The Manhattan New York Temple was the third temple built from an existing building, following the Vernal Utah Temple (1997) and the Copenhagen Denmark Temple (2004). The temple is virtually a building within a building, which is completely soundproofed from the hustle and bustle of the City. The original building was a multi-purpose stake center built in 1976."
+        },
+        "ordinance": {
+            "schedule": "Please call the temple at (1)917-441-8220 for information."
+        },
+        "closure": {
+            "schedule": {
+                  "1": "Wednesday, 1 January 2020", 
+                  "2": "Monday, 3 February 2020 - Monday, 17 Febrary 2020",
+                  "3": "Saturday, 4 April 2020",
+                  "4": "Saturday, 4 July 2020",
+                  "5": "Monday, 27 July 2020 - Monday, 10 August 2020",
+                  "6": "Wednesday, 25 November 2020",
+                  "7": "Thursday, 26 November 2020",
+                  "8": "Thursday, 24 December 2020",
+                  "9": "Friday, 25 December 2020",
+                  "10": "Thursday, 31 December 2020"
+            }
+        }  
+      },
+
+      "Bountiful": {
+        "services": {
+          "clothing": "Clothing rental available",
+          "cafeteria": "Cafeteria vailable",
+          "patron": "No patron housing available",
+          "distribution": "Distribution center nearby"
+          
+        },
+        "contact": {
+          "address": "640 S Bountiful Blvd, Bountiful UT 84010-1394, United States",
+          "phoneNumber": "(1)801-296-2100"
+          },
+        "history": {
+            "text": "Bountiful was settled on September 27, 1847, by Perrigrine Sessions and his family. It was Utah's second settlement after Salt Lake City. It was known as both Sessions Settlement and North Canyon Ward before being named Bountiful in 1855."
+        },
+        "ordinance": {
+            "schedule": "Please call the temple at (1)801-296-2100 for information."
+        },
+        "closure": {
+            "schedule": {
+                  "1": "Wednesday, 1 January 2020", 
+                  "2": "Saturday, 4 April 2020",
+                  "3": "Monday, 13 April 2020 - Monday, 27 April 2020",
+                  "4": "Saturday, 4 July 2020",
+                  "5": "Friday, 17 July 2020(Limited Hours)",
+                  "6": "Friday, 24 July 2020",
+                  "7": "Monday, 14 September 2020 - Monday, 28 September 2020",
+                  "8": "Saturday, 3 October 2020",
+                  "9": "Saturday, 31 October 2020 (Limited Hours)",
+                  "10": "Wednesday, 25 November 2020",
+                  "11": "Thursday, 26 November 2020",
+                  "12": "Thursday, 24 December 2020",
+                  "13": "Friday, 25 December 2020",
+                  "14": "Thursday, 31 December 2020"
+            }
+        }  
+      }
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./css/small.css" rel="stylesheet" media="screen">
+    <link href="./css/medium.css" rel="stylesheet" media="screen">
+    <title>Temple-Inn | Reservations</title>
+</head>
+
+
+
+<header>
+    
+    <img id = "temple-icon" src="./images/il_570xN.1057124281_avpg.png" alt="temple icon">
+    <section class = "headings">
+    <h1>Temple-inn Suites</h1>
+    </section>
+</header>
+
+<nav id="page-nav">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+    <ul id="primaryNav" class="hide">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="./temples.html">Temples</a></li>
+        <li class="active"><a href="./reservations.html">Reservations</a></li>
+        <li><a href="./services.html">Services</a></li>
+        <li><a href="./contacts.html">Contact</a></li>
+    </ul>
+    </nav>
+
+<body>
+    
+<main>
+
+    <section class="row">
+        <h2>Stay information</h2>
+        <form action="./reservation2.html">
+            Location:<br>
+            <select name="temples" id="temples" style="width: 98%;">
+                    <option id="templeSelect">Select a temple location...</option>
+                    <option>Palmyra</option>
+                    <option>Vernal</option>
+                    <option>Manhattan</option>
+                    <option>Bountiful</option>
+            </select>
+            <br><br>
+            Check-in Date:<br>
+            <input type="date" name="check-in-date" id="check-in-date" style="width: 98%;">
+            <br><br>
+            Check-out Date:<br>
+            <input type="date" name="check-out-date" id="check-out-date" style="width: 98%;">
+            <br><br>
+            Type of Room:<br>
+            <select name="rooms" id="roomStyle" style="width: 98%;">
+                    <option value="select">Select Type of Room...</option>
+                    <option value="king">King</option>
+                    <option value="queen">Queen</option>
+                    <option value="quad">Quad</option>
+                    <option value="triple">Triple</option>
+                    <option value="double">Double</option>
+                    <option value="single">Single</option>
+            </select>
+            <br><br>
+            Number of Rooms: 
+            <select name="#ofrooms" id="numberOfRooms" style="width: 98%;">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+            </select>
+        </section>
+        <section class="row">
+            <h2>Guest information</h2>
+            First name:<br>
+            <input type="text" name="firstname" id="firstName" style="width: 98%;">
+            <br><br>
+            Last name:<br>
+            <input type="text" name="lastname" id="lastName" style="width: 98%;">
+            <br><br>
+            Email Address:<br>
+            <input type="text" name="email" id="email" style="width: 98%;">
+            <br><br>
+            Phone Number:<br>
+            <input type="text" name="phone" id="phone" style="width: 98%;">
+            <br><br>
+            City: <br>
+            <input type="text" name="city" id="city" style="width: 98%;">
+            <br><br>
+            State: <br>
+            <input type="text" name="state" id="state" style="width: 98%;">
+            <br><br>
+            Country:<br>
+            <input type="text" name="country" id="country" style="width: 98%;">  
+            <br><br>
+            Comments:<br>
+            <input type="text" name="comments" id="comments" style="width: 98%;">  
+            <br><br>
+             
+    </section>
+</form>
+    <form action="./reservation2.html">
+        <input type="submit" value="Submit" onclick="store()" id="submitButton">
+    </form>
+
+    
+
+</main>
+<footer>
+        <section class="dateMod">
+                       &copy; | Temple-Inn Suites | Questions? Call: 1-800-555-5555 | Email: Temple-Inns@hotels.com | <a href="contacts.html">Contact Us.</a>
+               </section>
+       </footer>
+       <script src="./js/functions.js"></script>
+</body>
+
+
+</html>

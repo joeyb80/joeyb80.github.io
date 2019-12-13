@@ -1,0 +1,127 @@
+@media only screen and (min-width: 32.51rem) {
+
+    header{
+        font-size: 2rem;
+        
+    }
+
+    nav ul.hide{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    nav button{
+        display: none;
+    }
+
+
+    main{
+       margin: 0% 5% 0% 5%;
+       display: flex;
+        justify-content: space-evenly;
+        flex-flow: row wrap;
+    }
+
+
+    nav ul li a{
+        color:black;
+        margin: 0 1rem;
+        display: block;
+        
+        font-size: 1.5rem;
+    }
+
+   nav ul {
+        background-color: lightgray;
+        text-align: center;
+      }
+      
+    nav ul li {
+        display: inline-block;
+      }
+      
+    li a:hover {
+      background-color: rgba(0,0,0,0.2);
+     
+      }
+     
+
+    section{
+      margin: 1rem;
+      border-style: solid;
+      padding: 1rem;
+     
+  }
+
+  footer{
+    margin: 1rem;
+    font-size: 1rem;
+    
+}
+.dateMod{
+  border-color: lightyellow;
+}
+
+  #homeImg{
+    background-image: url("/temple-inn/images/Vernal.jpg");
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ 
+}
+
+.templeSectionV{
+ 
+width:40%;
+}
+#templeSectionP{
+  width: 40%;
+}
+
+
+#home{
+  margin: 0;
+}
+#homePage{
+  width: 70%;
+}
+
+#submitButton{
+  width: 15rem;
+}
+
+#contactSection{
+  width: 40%;
+}
+
+#maps{
+  width: 100%;
+  height: 100%;
+}
+
+#mapsSection{
+  width: 40%;
+}
+
+.row{
+  width: 42%;
+}
+
+
+.serviceNav{
+  list-style-type: disc;
+  font-size: 1.5rem; 
+}
+
+.servicesSection{
+  border-color: lightyellow;
+  width: 40%;
+}
+
+      
+
+  
+    
+   
+}

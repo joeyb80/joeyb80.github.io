@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./css/small.css" rel="stylesheet" media="screen">
+    <link href="./css/medium.css" rel="stylesheet" media="screen">
+    <title>Temple-Inn | Home</title>
+</head>
+
+
+
+<header>
+    
+    <img id = "temple-icon" src="./images/il_570xN.1057124281_avpg.png" alt="temple icon">
+    <section class = "headings">
+    <h1>Temple-inn Suites</h1>
+    </section>
+</header>
+
+<nav id="page-nav">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+    <ul id="primaryNav" class="hide">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="./temples.html" onclick="hide()">Temples</a></li>
+        <li><a href="./reservations.html">Reservations</a></li>
+        <li><a href="./services.html">Services</a></li>
+        <li><a href="./contacts.html">Contact</a></li>
+    </ul>
+    </nav>
+
+<body>
+    
+<main id="home">
+        
+
+    <section id="homePage">
+        <h2 id="featured">Featured Temple: Vernal, Utah</h2>
+        <img id="homeImg" src="./images/Vernal.jpg" alt="vernal Temple">
+       
+        
+        <h3>About:</h3>
+        <p>The Vernal Utah Temple is the fifty-first temple of The Church of Jesus Christ of Latter-day Saints. Located in Vernal it is the tenth LDS temple built in the state of Utah. Upon its dedication November 2, 1997, the Vernal Temple was unique as the only LDS temple built from a previously existing structure.</p>
+        <form action="reservations.html">
+            <button type="submit" id="homeButton">Click to reserve now</button>
+         </form>
+  
+    </section>
+
+</main>
+<footer>
+        <section class="dateMod">
+                &copy; | Temple-Inn Suites | Questions? Call: 1-800-555-5555 | Email: Temple-Inns@hotels.com | <a href="contacts.html">Contact Us.</a>
+        </section>
+</footer>
+<script src="./js/functions.js"></script>
+</body>
+
+
+
+</html>

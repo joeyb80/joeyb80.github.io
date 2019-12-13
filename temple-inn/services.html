@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./css/small.css" rel="stylesheet" media="screen">
+    <link href="./css/medium.css" rel="stylesheet" media="screen">
+    <title>Temple-Inn | Services</title>
+</head>
+
+
+
+<header>
+    
+    <img id = "temple-icon" src="./images/il_570xN.1057124281_avpg.png" alt="temple icon">
+    <section class = "headings">
+    <h1>Temple-inn Suites</h1>
+    </section>
+</header>
+
+<nav id="page-nav">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+    <ul id="primaryNav" class="hide">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="./temples.html">Temples</a></li>
+        <li><a href="./reservations.html">Reservations</a></li>
+        <li class="active"><a href="./services.html">Services</a></li>
+        <li><a href="./contacts.html">Contact</a></li>
+    </ul>
+    </nav>
+
+<body>
+    
+<main id="servicesMain">
+
+    <section class="servicesSection">
+        <h2 class="services">Specialized Services:</h2>
+        <ul class="servicesNav" >
+            <li class="serviceNav">Free access to changing rooms and bathroom facilities for temple patrons who have traveled far and need to change to and from church clothes</li>
+            
+            <li class="serviceNav">A playroom and low-cost, short-term babysitting services for the children of patrons</li>
+            
+            <li class="serviceNav">Long-term stay accommodations in kitchenette suites for full-time temple missionaries</li>
+           
+            <li class="serviceNav">Church history themed reception and sitting area</li>
+         
+            <li class="serviceNav">A wedding reception hall that can be easily customized with a simple catering menu and kitchen access for food preparation and serving</li>
+            
+            <li class="serviceNav">A family search center that supports family search and ordinance work</li>
+        </ul>
+    </section>
+    <section class="servicesSection">
+        <h2 class="services">Free Amenities:</h2>
+        <ul class="servicesNav" >
+            <li class="serviceNav">Breakfast</li>
+            
+            <li class="serviceNav">Exercise/workout room</li>
+            
+            <li class="serviceNav">Indoor pool</li>
+            
+            <li class="serviceNav">WiFi high-speed internet access and smart TVs</li>
+            
+            <li class="serviceNav">Parking</li>
+           
+            <li class="serviceNav">Temple shuttle</li>
+                
+            <li class="serviceNav">Family history consultation and family ordinance card service</li>
+        </ul>
+    </section>
+
+    <section id="templeSectionV">
+        
+        
+        <button onclick = "unHideR()" class="showDetails" id="buttonR">Show Wedding Reception Information &#8595;</button>
+        <div id="info">
+        <h3>Acomodations:</h3>
+        <p>Ball Room rental with full catering available</p>
+        <h3>Food Service:</h3>
+        <ul>  
+        
+        
+        <li class="serviceNav">Chicken Dinner</li>
+        <li class="serviceNav">Beef Dinner</li>
+        <li class="serviceNav">Soup Dinner</li>
+        <li class="serviceNav">Lobster Dinner</li>
+        
+    </ul>
+</div>
+    <button onclick = "unHideM()" class="showDetails" id="buttonM">Show Full-Time-Temple-Missionary Information &#8595;</button>
+
+    <div id="infoM">
+        <h3>Suites:</h3>
+        <p>Suites are fully finished with all accomodations such as kitchen and laundry</p>
+        <button onclick = "unHideP()" class="showDetails" id="buttonP">Show Image &#8595;</button>
+        <div id="servicesImg">
+            <br>
+            <img src="images/missionary-apartment.jpg" alt="Missionary Apartment">
+        </div>
+        <h3><a href="contacts.html">Click to contact us for more information</a></h3>
+        
+    </div>
+    </section>
+
+</main>
+<footer>
+        <section class="dateMod">
+            &copy; | Temple-Inn Suites | Questions? Call: 1-800-555-5555 | Email: Temple-Inns@hotels.com | <a href="contacts.html">Contact Us.</a>
+    </section>
+    </footer>
+    <script src="./js/functions.js"></script>
+    <script src="./js/services.js"></script>
+</body>
+
+
+</html>

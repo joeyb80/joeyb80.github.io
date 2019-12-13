@@ -277,7 +277,7 @@ function fetchWeatherData(weatherURL) {
 
             // **********  Get the location information  **********
            // let locName = storage.getItem('locName');
-            //let locState = storage.getItem('locState');
+            //let locState = storage.('locState');
 
             let locName = p.properties.relativeLocation.properties.city;
             let locState = p.properties.relativeLocation.properties.state;
@@ -585,7 +585,7 @@ function getLocation(locale) {
     const URL = "https://api.weather.gov/points/" + locale;
     console.log(URL);
     console.log("READ THIS FOR THE URL^^^^^^");
-    storage.setItem("URL", URL);
+    fetItem("URL", URL);
 
     console.log();
 
