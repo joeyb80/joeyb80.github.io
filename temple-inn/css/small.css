@@ -42,10 +42,6 @@ nav ul li.active a{
     color: black;
 }
 
-nav ul li a:hover{
-   
-}
-
 nav ul.hide{
     display: none;
 }
@@ -67,7 +63,7 @@ footer{
 }
 
 
-.templeImg{
+.templeImgV, .templeImgP, .templeImgM, .templeImgB{
     width: 100%;
     height: auto;
   }
@@ -168,8 +164,21 @@ footer{
 }
 
 
+.templeImgV{
+    background-image: url("/temple-inn/images/VernalSmall.jpg");
+}
 
+.templeImgP{
+    background-image: url("/temple-inn/images/Palmyra-Temple-01Small.jpg");
+}
 
+.templeImgM{
+    background-image: url("/temple-inn/images/manhattan_temple_ldsSmall.jpg");
+}
+
+.templeImgB{
+    background-image: url("/temple-inn/images/Bountiful_Utah_Temple2Small.jpg");
+}
 
 
 
